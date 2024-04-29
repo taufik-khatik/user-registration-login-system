@@ -1,25 +1,12 @@
-# CakePHP 3
+# PHP ignore list
 
-/vendor/*
-/config/app.php
+# Profile Photos Uploads
+/assets/uploads/*
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Config Files
+/includes/config.php
 
-/logs/*
-!/logs/empty
+# images
+# /assets/img/*
 
-# CakePHP 2
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*

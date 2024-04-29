@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <div class="banner">
+      <div class="row justify-content-center mt-5 container">
+          <div class="col-md-8">
+              <div class="card shadow">
+                  <div class="card-header text-center">
+                      <h1 class="card-title">User Registration</h1>
+                  </div>
+                  <div class="card-body">
+                      <form id="registerForm" enctype="multipart/form-data">
+                          <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="first_name" class="form-label">First Name<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="first_name" name="first_name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="last_name" class="form-label">Last Name<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="last_name" name="last_name" required>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">Email<span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="mobile" class="form-label">Mobile<span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="mobile" name="mobile" required>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password<span class="text-danger">*</span></label>
+                                    <input type="password" class="form-control" id="password" name="password" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="confirm_password" class="form-label">Confirm Password<span class="text-danger">*</span></label>
+                                    <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="profile_photo" class="form-label">Profile Photo</label>
+                                <input type="file" class="form-control" id="profile_photo" name="profile_photo" accept=".jpg, .jpeg, .png">
+                                <small class="form-text ">Allowed file types: jpg, jpeg, png & max size: 2MB</small>
+                            </div>
+                          </div>
+                          <div id="errorMessage" class="mt-4"></div>
+                          <div class="row">
+                            <div class="col-md-6 mx-auto my-4">
+                              <button type="submit" class="w-100 mx-auto btn btn-primary">Register</button>
+                              <p class="mt-2 mb-0 text-center">
+                                  Already have an account? <a href="login.html">Login</a>
+                              </p>
+                            </div>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Your custom script -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

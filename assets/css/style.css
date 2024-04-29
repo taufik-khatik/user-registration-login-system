@@ -1,0 +1,41 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner image styles */
+.banner {
+  background-image: url('../img/forest-bridge-bg-img.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Welcome message styles */
+.welcome-msg {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Profile photo styles */
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border: solid 2px #000000;
+  border-radius: 50%;
+  box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.3);
+  object-fit: cover; 
+}
