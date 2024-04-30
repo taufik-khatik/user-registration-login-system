@@ -35,29 +35,29 @@ Form Validations: Includes client-side and server-side form validations for bett
 # Project Structure
 The project directory structure is organized as follows:
 - e.g.,
-user-registration-login-system/
-│
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ └── script.js
-│ ├── img/
-│ └── uploads/
-│
-├── includes/
-│ ├── check_login.php
-│ ├── config.php
-│ ├── dashboard.php
-│ ├── login.php
-│ ├── logout.php
-│ └── register.php
-│
-├── index.html
-├── login.html
-├── README.md
-├── register.html
-└── user_registration_login_system.sql
+user-registration-login-system/    
+│    
+├── assets/    
+│ ├── css/    
+│ │ └── style.css    
+│ ├── js/    
+│ │ └── script.js    
+│ ├── img/    
+│ └── uploads/    
+│    
+├── includes/    
+│ ├── check_login.php    
+│ ├── config.php    
+│ ├── dashboard.php    
+│ ├── login.php    
+│ ├── logout.php    
+│ └── register.php    
+│    
+├── index.html    
+├── login.html    
+├── README.md    
+├── register.html    
+└── user_registration_login_system.sql    
 
 
 # Features
